@@ -1,0 +1,318 @@
+{
+  "at": "2026-10-12T19:16:06.421Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/143.0.0.0 Safari/537.36",
+  "sampleRate": 48000,
+  "rounds": 5,
+  "concurrency": 6,
+  "transport": "http: localhost; cache:no-store; network profile must be recorded separately",
+  "manifest": {
+    "sounds": 32,
+    "sampleRate": 48000,
+    "encoder": "ffmpeg-static 5.2.0 / libopus; Opus 64 kbit/s mono",
+    "gapSeconds": 0.08,
+    "source": "Identical deterministic synthetic PCM for all cases. No recordings. No deduplication.",
+    "cases": [
+      {
+        "id": "individual-wav",
+        "audio": [
+          "/generated/benchmark/sound00.wav",
+          "/generated/benchmark/sound01.wav",
+          "/generated/benchmark/sound02.wav",
+          "/generated/benchmark/sound03.wav",
+          "/generated/benchmark/sound04.wav",
+          "/generated/benchmark/sound05.wav",
+          "/generated/benchmark/sound06.wav",
+          "/generated/benchmark/sound07.wav",
+          "/generated/benchmark/sound08.wav",
+          "/generated/benchmark/sound09.wav",
+          "/generated/benchmark/sound10.wav",
+          "/generated/benchmark/sound11.wav",
+          "/generated/benchmark/sound12.wav",
+          "/generated/benchmark/sound13.wav",
+          "/generated/benchmark/sound14.wav",
+          "/generated/benchmark/sound15.wav",
+          "/generated/benchmark/sound16.wav",
+          "/generated/benchmark/sound17.wav",
+          "/generated/benchmark/sound18.wav",
+          "/generated/benchmark/sound19.wav",
+          "/generated/benchmark/sound20.wav",
+          "/generated/benchmark/sound21.wav",
+          "/generated/benchmark/sound22.wav",
+          "/generated/benchmark/sound23.wav",
+          "/generated/benchmark/sound24.wav",
+          "/generated/benchmark/sound25.wav",
+          "/generated/benchmark/sound26.wav",
+          "/generated/benchmark/sound27.wav",
+          "/generated/benchmark/sound28.wav",
+          "/generated/benchmark/sound29.wav",
+          "/generated/benchmark/sound30.wav",
+          "/generated/benchmark/sound31.wav"
+        ],
+        "bytes": 1479808
+      },
+      {
+        "id": "atlas-wav",
+        "audio": [
+          "/generated/benchmark/atlas.wav"
+        ],
+        "json": "/generated/benchmark/atlas.json",
+        "bytes": 1725102
+      },
+      {
+        "id": "individual-weba",
+        "audio": [
+          "/generated/benchmark/sound00.weba",
+          "/generated/benchmark/sound01.weba",
+          "/generated/benchmark/sound02.weba",
+          "/generated/benchmark/sound03.weba",
+          "/generated/benchmark/sound04.weba",
+          "/generated/benchmark/sound05.weba",
+          "/generated/benchmark/sound06.weba",
+          "/generated/benchmark/sound07.weba",
+          "/generated/benchmark/sound08.weba",
+          "/generated/benchmark/sound09.weba",
+          "/generated/benchmark/sound10.weba",
+          "/generated/benchmark/sound11.weba",
+          "/generated/benchmark/sound12.weba",
+          "/generated/benchmark/sound13.weba",
+          "/generated/benchmark/sound14.weba",
+          "/generated/benchmark/sound15.weba",
+          "/generated/benchmark/sound16.weba",
+          "/generated/benchmark/sound17.weba",
+          "/generated/benchmark/sound18.weba",
+          "/generated/benchmark/sound19.weba",
+          "/generated/benchmark/sound20.weba",
+          "/generated/benchmark/sound21.weba",
+          "/generated/benchmark/sound22.weba",
+          "/generated/benchmark/sound23.weba",
+          "/generated/benchmark/sound24.weba",
+          "/generated/benchmark/sound25.weba",
+          "/generated/benchmark/sound26.weba",
+          "/generated/benchmark/sound27.weba",
+          "/generated/benchmark/sound28.weba",
+          "/generated/benchmark/sound29.weba",
+          "/generated/benchmark/sound30.weba",
+          "/generated/benchmark/sound31.weba"
+        ],
+        "bytes": 180280
+      },
+      {
+        "id": "atlas-weba",
+        "audio": [
+          "/generated/benchmark/atlas.weba"
+        ],
+        "json": "/generated/benchmark/atlas.json",
+        "bytes": 199792
+      }
+    ]
+  },
+  "rows": [
+    {
+      "case": "individual-wav",
+      "round": 0,
+      "readyMs": 1362.7000000178814,
+      "decodeTaskMs": 75.40000000596046,
+      "payloadBytes": 1479808,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-wav",
+      "round": 0,
+      "readyMs": 1576.2999999821186,
+      "decodeTaskMs": 19.5,
+      "payloadBytes": 1725102,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "individual-weba",
+      "round": 0,
+      "readyMs": 836.8000000119209,
+      "decodeTaskMs": 99.50000002980232,
+      "payloadBytes": 180280,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-weba",
+      "round": 0,
+      "readyMs": 386.5,
+      "decodeTaskMs": 81.90000000596046,
+      "payloadBytes": 199792,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "atlas-wav",
+      "round": 1,
+      "readyMs": 1587.5999999940395,
+      "decodeTaskMs": 20.80000001192093,
+      "payloadBytes": 1725102,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "individual-weba",
+      "round": 1,
+      "readyMs": 807.7000000178814,
+      "decodeTaskMs": 102.09999999403954,
+      "payloadBytes": 180280,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-weba",
+      "round": 1,
+      "readyMs": 377.09999999403954,
+      "decodeTaskMs": 87.2000000178814,
+      "payloadBytes": 199792,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "individual-wav",
+      "round": 1,
+      "readyMs": 1394.199999988079,
+      "decodeTaskMs": 70.99999991059303,
+      "payloadBytes": 1479808,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "individual-weba",
+      "round": 2,
+      "readyMs": 805.0999999940395,
+      "decodeTaskMs": 89.29999995231628,
+      "payloadBytes": 180280,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-weba",
+      "round": 2,
+      "readyMs": 358.5,
+      "decodeTaskMs": 80.19999998807907,
+      "payloadBytes": 199792,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "individual-wav",
+      "round": 2,
+      "readyMs": 1390.5,
+      "decodeTaskMs": 75.10000005364418,
+      "payloadBytes": 1479808,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-wav",
+      "round": 2,
+      "readyMs": 1567,
+      "decodeTaskMs": 18.900000005960464,
+      "payloadBytes": 1725102,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "atlas-weba",
+      "round": 3,
+      "readyMs": 360.7000000178814,
+      "decodeTaskMs": 82.2000000178814,
+      "payloadBytes": 199792,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "individual-wav",
+      "round": 3,
+      "readyMs": 1370.2999999821186,
+      "decodeTaskMs": 72.30000004172325,
+      "payloadBytes": 1479808,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-wav",
+      "round": 3,
+      "readyMs": 1569.1000000238419,
+      "decodeTaskMs": 19.400000005960464,
+      "payloadBytes": 1725102,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "individual-weba",
+      "round": 3,
+      "readyMs": 809.0999999940395,
+      "decodeTaskMs": 101.00000005960464,
+      "payloadBytes": 180280,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "individual-wav",
+      "round": 4,
+      "readyMs": 1372.5999999940395,
+      "decodeTaskMs": 80.09999990463257,
+      "payloadBytes": 1479808,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-wav",
+      "round": 4,
+      "readyMs": 1579.0999999940395,
+      "decodeTaskMs": 21.599999994039536,
+      "payloadBytes": 1725102,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    },
+    {
+      "case": "individual-weba",
+      "round": 4,
+      "readyMs": 812.3000000119209,
+      "decodeTaskMs": 96.6999998986721,
+      "payloadBytes": 180280,
+      "retainedPcmBytes": 2956800,
+      "requests": 32,
+      "decodeCalls": 32
+    },
+    {
+      "case": "atlas-weba",
+      "round": 4,
+      "readyMs": 378.69999998807907,
+      "decodeTaskMs": 86.69999998807907,
+      "payloadBytes": 199792,
+      "retainedPcmBytes": 3448320,
+      "requests": 2,
+      "decodeCalls": 1
+    }
+  ],
+  "networkProfile": {
+    "id": "simulated-100ms-10mbps",
+    "latency": 100,
+    "downloadThroughput": 1250000,
+    "uploadThroughput": 1250000
+  },
+  "browser": "143.0.7499.170"
+}

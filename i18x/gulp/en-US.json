@@ -1,0 +1,7 @@
+{
+	"Build sound atlas V<version/><context=\"µDisplayName\"/>": "Build sound atlas V<version/>",
+	"Audio<context=\"µGroup\"/>": "Audio",
+	"Added reproducible browser sound atlas, validated loading, loop playback and recovery tests.<context=\"release info\"/>": "Added reproducible browser sound atlas, validated loading, loop playback and recovery tests.",
+	"Added a distinct example project title and bundled microGulp logo.<context=\"release info\"/>": "Added a distinct example project title and bundled microGulp logo.<context=\"release info\"/>",
+	"Added dashboard keyboard shortcuts with explicit macOS bindings and usage documentation.<context=\"release info\"/>": "Added dashboard keyboard shortcuts with explicit macOS bindings and usage documentation."
+}

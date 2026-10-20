@@ -1,0 +1,6 @@
+{
+ "sampleRate": 24000,
+ "gapSeconds": 0.08,
+ "volume": 0.2,
+ "features": { "loops": true, "failureTests": true }
+}

@@ -1,0 +1,23 @@
+{
+  "captured": "2026-10-12",
+  "files": [
+    {
+      "file": "microLib/Sounds.mjs",
+      "sourceProject": "microLib",
+      "sourcePath": "src/µLib/Sounds.mjs",
+      "sha256": "ba76336b10c13ba6273ee66495bf9ccd06f83cc39ebb705703faccdf7fd8ac74"
+    },
+    {
+      "file": "microLib/SoundTools.mjs",
+      "sourceProject": "microLib",
+      "sourcePath": "src/µLib/SoundTools.mjs",
+      "sha256": "c0326617bc91d78b5e8be1f6518f246235e025f84c3f5ba7da0b6a47868a02b6"
+    },
+    {
+      "file": "microLib/LICENSE",
+      "sourceProject": "microLib",
+      "sourcePath": "LICENSE",
+      "sha256": "c2cbf0a6dbfdea2427a5891f7ca3ed5f7427f7d76e2d32a02df8e719e11805f6"
+    }
+  ]
+}

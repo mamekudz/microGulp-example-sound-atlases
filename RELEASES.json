@@ -1,0 +1,28 @@
+{
+  "releases": [
+    {
+      "main": 1,
+      "minor": 1,
+      "revision": 0,
+      "date": "2026-10-12 22:00",
+      "beta": false,
+      "info": [
+        "Derive loops from sample markers in filenames; preserve attack and release with explicit graceful and immediate stops.<context=\"release info\"/>",
+        "Add WebA/Opus, a flight demo, original source references and a reproducible WAV/WebA benchmark.<context=\"release info\"/>",
+        "Use FFmpeg/libopus and verify decoded frame counts and cue alignment to prevent codec-delay truncation.<context=\"release info\"/>"
+      ]
+    },
+    {
+      "main": 1,
+      "minor": 0,
+      "revision": 0,
+      "date": "2026-10-10 20:35",
+      "beta": false,
+      "info": [
+        "Added reproducible browser sound atlas, validated loading, loop playback and recovery tests.<context=\"release info\"/>",
+        "Added a distinct example project title and bundled microGulp logo.<context=\"release info\"/>",
+        "Added dashboard keyboard shortcuts with explicit macOS bindings and usage documentation.<context=\"release info\"/>"
+      ]
+    }
+  ]
+}

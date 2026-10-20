@@ -1,0 +1,25 @@
+{
+  "name": "microgulp-recipe-sound-atlases",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node tools/Build.mjs",
+    "start": "node tools/Serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "pretest": "npm run release:check",
+    "release:check": "node tools/RecipeRelease.mjs --check",
+    "release:sync": "node tools/RecipeRelease.mjs --sync",
+    "benchmark:build": "node tools/BenchmarkBuild.mjs",
+    "browser:test": "node tools/BrowserCheck.mjs"
+  },
+  "devDependencies": {
+    "ffmpeg-static": "5.2.0",
+    "gulp": "5.0.1",
+    "gulp-mu-gulp-api": "file:vendor/gulp-mu-gulp-api-0.7.0.tgz",
+    "playwright": "1.62.1"
+  }
+}

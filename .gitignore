@@ -1,0 +1,9 @@
+node_modules/
+public/generated/
+.microgulp/
+
+AGENTS.md
+.env
+.env.*
+.npm-cache/
+references/oxyd/

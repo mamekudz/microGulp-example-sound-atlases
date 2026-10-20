@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sampleRate",
+    "gapSeconds",
+    "volume",
+    "features"
+  ],
+  "properties": {
+    "sampleRate": {
+      "enum": [
+        24000,
+        48000
+      ]
+    },
+    "gapSeconds": {
+      "type": "number",
+      "minimum": 0.02,
+      "maximum": 1
+    },
+    "volume": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "features": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "loops",
+        "failureTests"
+      ],
+      "properties": {
+        "loops": {
+          "type": "boolean"
+        },
+        "failureTests": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
