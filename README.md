@@ -56,7 +56,7 @@ IntegrateRecipe.en-US.src.md ist der KI-Integrationsprompt. Weitere Übersetzung
 Build-Voraussetzung: npm ci lädt über ffmpeg-static das plattformspezifische FFmpeg-Binary. Der Build ruft es als Unterprozess auf; die fertige Webapp benötigt FFmpeg nicht. measurements/browser-check.json enthält die Framezahl- und Korrelationsprüfung gegen die WAV-Zeitachse.
 
 <!-- blog-publication:start -->
-Artikel: [Deutsch](https://microgulp.dev/blogs/audio-sound-atlases)
+Artikel: [Deutsch](https://microgulp.dev/de/blog/audio-sound-atlases/)
 
 Weitere Beispiele: [microGulp-Examples](https://github.com/mamekudz/microGulp-Examples).
 <!-- blog-publication:end -->
